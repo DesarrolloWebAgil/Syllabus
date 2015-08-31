@@ -8,18 +8,18 @@ Desarrollo Web Syllabus
 
 ## Clase 2 - Equipos y MVC
 
- ###  ¿ Cuando necesitamos desarrollar software ?
+###  ¿ Cuando necesitamos desarrollar software ?
 	* Ventajas de software open source
 	* Ventajas de contratar un servicio
 	* Ventajas del desarrollo propio.
 
- ### Ok, decidimos desarrollar una aplicación. ¿ Necesitamos un equipo ?
+### Ok, decidimos desarrollar una aplicación. ¿ Necesitamos un equipo ?
 
  * ¿ Cuando necesitamos trabajar en equipos ?
  * ¿ Beneficios de Trabajar en equipo ?
  * ¿ Hemos de verdad trabajado en equipos anteriormente?
 
- ### Divide & Conquer
+### Divide & Conquer
 * La mejor forma de atacar un problema complejo es dividiendolo en problemas sencillos.
 	- La separación puede ser Vertical o Horizontal
 
