@@ -9,9 +9,9 @@ Desarrollo Web Syllabus
 ## Clase 2 - Equipos y MVC
 
 ###  ¿ Cuando necesitamos desarrollar software ?
-	* Ventajas de software open source
-	* Ventajas de contratar un servicio
-	* Ventajas del desarrollo propio.
+* Ventajas de software open source
+* Ventajas de contratar un servicio
+* Ventajas del desarrollo propio.
 
 ### Ok, decidimos desarrollar una aplicación. ¿ Necesitamos un equipo ?
 
