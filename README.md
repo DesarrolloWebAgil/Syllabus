@@ -24,12 +24,12 @@ Desarrollo Web Syllabus
 	- La separación puede ser Vertical o Horizontal
 
 Una forma lógica de dividir los aspectos de un problema es hacerlo de la siguiente manera :
-	- Mostrar la información al usuario
-	- Obtener la información
-	- Conectar a la BdD
-	- Obtener información relevante de la BdD
-	- Realizar procesos
-	- Mostrar el resultado
+* Mostrar la información al usuario
+* Obtener la información
+* Conectar a la BdD
+* Obtener información relevante de la BdD
+*	 Realizar procesos*
+*	 Mostrar el resultado
 
 Lo anterior un programador más experto podría separarlo usando un modelo MVC. Ojo, los modelos o patrones son soluciones probadas a problemas conocidos.
 
