@@ -1,6 +1,25 @@
 # Syllabus
 Desarrollo Web Syllabus
 
+## Overview
+
+## Pre-Requisitos
+
+## Herramientas
+### Frameworks
+Los siguientes son los Frameworks que se han usado en el curso.
+* CodeIgniter
+* YiiFramework
+* DJango
+* NodeJS
+
+### Gestion de Proyectos
+Algunas Herramientas que harán nuestra vida más sencilla para la coordinación del proyecto.
+* Asana
+* Basecamp
+* Freedcamp
+* Producteev
+* Ganttproject ( OpenSource )
 
 
 ## Clase 1 - Frameworks
@@ -95,6 +114,9 @@ Antes de dar el feedback.
 
 
 ## Clase 4 - Manejo de versiones & Equipo
+
+
+
 
 
 
