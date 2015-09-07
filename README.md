@@ -153,7 +153,7 @@ Git  es un software de control de versiones  pensando en la eficiencia y la conf
 Subversion es un sistema de control de versiones libre y de código fuente abierto. Es decir, Subversion maneja ficheros y directorios a través del tiempo. Hay un árbol de ficheros en un repositorio central. El repositorio es como un servidor de ficheros ordinario, excepto porque recuerda todos los cambios hechos a sus ficheros y directorios. Ésto le permite recuperar versiones antiguas de sus datos, o examinar el historial de cambios de los mismos. En este aspecto, mucha gente piensa en los sistemas de versiones como en una especie de “máquina del tiempo ”.
 
 
-## Clase 5 - Procesos y Productos
+## Clase 5 - Procesos y Productos (PT1)
 
 
 Si queremos tener éxito con lo que hagamos, la forma como lo hagamos importa.
@@ -164,14 +164,17 @@ Si queremos tener éxito con lo que hagamos, la forma como lo hagamos importa.
 
 Hoy veremos :
 * La relación entre el proceso y el producto.
-* Las consecuencias de ignorar el proceso.
-* La razón del por qué los procesos deben de ser respetados.
-* Como comenzar a unas procesos en donde no tenemos.
-* Los procesos ayudan, no dificultan.
+* Definiremos calidad en un software. ( ¡ A nuestra manera !)
+* Expectativas y requerimientos.
+* Manifiesto Ágil.
+* Feedback del usuario.
+* Ejemplo práctico.
+
 
 En el desarrollo de software ( No importa si es ágil o no ) el proceso tiene un papel fundamental. Una de las razones es que como objetivo tiene asegurar que podemos predecir el tiempo y esfuerzo en realizar un desarrollo.
 
-      Si a lo anterior agregamos "Buenas prácticas" en nuestros procesos, la posibilidad de terminar con un software de alta calidad es muy alta.
+      Si a lo anterior agregamos "Buenas prácticas" en nuestros procesos,
+      la posibilidad de terminar con un software de alta calidad es muy alta.
 
 ¿ Cómo definimos que un software sea de alta calidad ?
 * Cumple la función con la que fue desarrollado.
@@ -185,13 +188,54 @@ Entonces para asegurar la calidad de software debemos :
 
        ¿ Cual sería la diferencia entre expectativas del usuario y sus requerimientos ?
 
-### Proceso
+En este momento es bueno que tengamos en consideración los principios del desarrollo ágil :
+* Pueden ver el ágil manifesto haciendo  [click aquí](http://www.agilemanifesto.org/iso/es/principles.html)
+
+La mejor forma que tenemos para cumplir las expectativas del usuario es seguir el primer principio del desarrollo ágil.
+> Nuestra mayor prioridad es satisfacer al cliente
+mediante la entrega temprana y continua de software
+con valor.
+
+Y esto lo logramos con entregas continuas en intervalos cortos de tiempo para que el o los usuarios puedan dar feedback sobre la aplicación. ( Les dije que la clase sobre feedback nos serviría ).
+
+El Feedback además de ayudarnos a cumplir las expectativas del cliente nos ayuda a encontrar bugs de una manera oportuna, por lo que el tiempo que ocupa el periodo de marcha blanca o de arreglar los problemas se ve drasticamente afectado.
+
+     Colaborar con el usuario es importante para entender lo que de verdad necesita.
+
+Existe la gran posibilidad de que si no se cumplen las expectativas del cliente, a pesar de q ue se cumplen los requerimientos, el cliente jamás quede satisfecho con el producto.
+
+Ejemplo Práctico:
+* Se necesita desarrollar una conexión para una pasarela de pagos para los productos de un sitio web. ¿ Cómo lo proceserían ?
+
+
+En nuestra aplicación, ya que seguiremos el modelo MVC, la calidad puede ser afectada por no seguir los patrones de desarrollo MVC.
+
+#### Proceso
 > Un proceso es un conjunto de actividades mutuamente relacionadas o que al interactuar juntas en los elementos de entrada los convierten en resultados.
 
 
-### Producto
+#### Producto
 > Un producto es un conjunto de características y atributos tangibles (forma, tamaño, color...) e intangibles (marca, imagen de empresa, servicio...) que el comprador acepta, en principio, como algo que va a satisfacer sus necesidades.
 
+
+## Clase 6 - Manos a la masa.
+
+Ya sabemos teóricamente mucho sobre como desarrollar nuestra aplicación. Ahora comienza el proceso en donde corroboramos que lo estemos haciendo bien. Antes de comenzar que necesitamos :
+* Solución del problema fragmentada. ( Divide & Conquer !)
+* Calendarización de las actividades.
+* Actividades ya asignadas por miembros.
+* La parte básica del sistema ya en la nube.
+* Sistema de repositorios funcionando.
+* Ojala a los miembros del equipo.
+
+## Clase 7 - Procesos PT2
+
+Hoy veremos :
+
+* Las consecuencias de ignorar el proceso.
+* La razón del por qué los procesos deben de ser respetados.
+* Como comenzar a unas procesos en donde no tenemos.
+* Los procesos ayudan, no dificultan.
 
 
 ## Proyecto del curso
