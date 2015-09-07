@@ -152,10 +152,52 @@ Git  es un software de control de versiones  pensando en la eficiencia y la conf
 
 Subversion es un sistema de control de versiones libre y de código fuente abierto. Es decir, Subversion maneja ficheros y directorios a través del tiempo. Hay un árbol de ficheros en un repositorio central. El repositorio es como un servidor de ficheros ordinario, excepto porque recuerda todos los cambios hechos a sus ficheros y directorios. Ésto le permite recuperar versiones antiguas de sus datos, o examinar el historial de cambios de los mismos. En este aspecto, mucha gente piensa en los sistemas de versiones como en una especie de “máquina del tiempo ”.
 
+
+## Clase 5 - Procesos y Productos
+
+
+Si queremos tener éxito con lo que hagamos, la forma como lo hagamos importa.
+
+¿ Cual es la diferencia de los siguientes términos ? ( ¡ Solo por curiosidad !)
+* Eficacia
+* Eficiencia
+
+Hoy veremos :
+* La relación entre el proceso y el producto.
+* Las consecuencias de ignorar el proceso.
+* La razón del por qué los procesos deben de ser respetados.
+* Como comenzar a unas procesos en donde no tenemos.
+* Los procesos ayudan, no dificultan.
+
+En el desarrollo de software ( No importa si es ágil o no ) el proceso tiene un papel fundamental. Una de las razones es que como objetivo tiene asegurar que podemos predecir el tiempo y esfuerzo en realizar un desarrollo.
+
+      Si a lo anterior agregamos "Buenas prácticas" en nuestros procesos, la posibilidad de terminar con un software de alta calidad es muy alta.
+
+¿ Cómo definimos que un software sea de alta calidad ?
+* Cumple la función con la que fue desarrollado.
+* Cumple con los requerimientos y expectativas del cliente.
+
+Entonces para asegurar la calidad de software debemos :
+* Cumplir con las expectativas del usuario.
+* Reducir el número de bugs.
+* Asegurar que podemos "acomodar" cambios en los requerimientos.
+* Asegurar calidad y usabilidad.
+
+       ¿ Cual sería la diferencia entre expectativas del usuario y sus requerimientos ?
+
+### Proceso
+> Un proceso es un conjunto de actividades mutuamente relacionadas o que al interactuar juntas en los elementos de entrada los convierten en resultados.
+
+
+### Producto
+> Un producto es un conjunto de características y atributos tangibles (forma, tamaño, color...) e intangibles (marca, imagen de empresa, servicio...) que el comprador acepta, en principio, como algo que va a satisfacer sus necesidades.
+
+
+
 ## Proyecto del curso
 
 * Generar los equipos de máximo 3 personas y mínimo 3 personas :)
-* Definir un proyecto que "merezca" ser desarrollado. ( Feedback por parte de la clase es requerido ) 
+* Definir un proyecto que "merezca" ser desarrollado. ( Feedback por parte de la clase es requerido )
 * Definir una carta Gantt para el proyecto.
 * Inicializar y utilizar un repositorio para el proyecto.
 * Elegir y utilizar una herramienta de gestión de proyectos.
