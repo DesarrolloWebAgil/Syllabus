@@ -234,8 +234,92 @@ Hoy veremos :
 
 * Las consecuencias de ignorar el proceso.
 * La razón del por qué los procesos deben de ser respetados.
-* Como comenzar a unas procesos en donde no tenemos.
+* Como comenzar con procesos en donde no tenemos.
 * Los procesos ayudan, no dificultan.
+
+Cómo hemos conversado en clases anteriores si queremos que algo tenga un resultado exitoso la forma como lo hacemos importa. ( ¡ Recuerden las diferencias entre eficiencia y eficacia !).
+
+Un ejemplo básico de lo anterior puede ser aprobar un curso. Para aprobar el curso de manera satisfactoria en general se necesita ir a las clases, hacer las tareas, leer material adicional desde internet si fuera necesario complementar y estudiar para la evaluación.
+
+### Ignorando el proceso.
+
+De al forma que estamos desarrollando, tomando el problema y dividiendolo en hitos pequeños que pueden ser simples líneas de código, es muy probable que perdamos el concepto de lo que estámos haciendo.
+
+Cuando el proyecto no es muy complejo en general no se tienen ningún problema simplificando el desarrollo en hitos pequeños, sin embargo al tener un proyecto más complejo se puede caer en sobre simplificar los hitos haciendo que los miembros del equipo pierdan la noción final de lo que se desarrolla.
+
+    Ojo, no me malentiendan.
+    Si la tarea es sencilla no la hagan compleja.
+
+Nunca debemos olvidar que hay otros miembros del equipo trabajando en el código, en otras "partes del todo", por lo que debemos mantener sincronía en el código y las partes. Tenemos que hacer un esfuerzo para mantener todas las partes individuales del puzzle encajen de buena manera.
+
+    Todos los integrantes deberían
+    conocer el objetivo o  resultado esperado
+    del proyecto en todo momento.
+    Es la única forma de mantener la sincronía.
+
+Teniendo esto en consideración, **¿ no es más sencillo si encontramos un problema simplemente arreglarlo de manera directa en el código ?** A esto le llamaremos harcoding y si es más sencillo, pero debemos recordar que estaremos trabajando en equipos y que no siempre es trivial el conocimiento que se necesita para encontrar el código que se insertó de esta manera. El proceso por el cual arreglamos un pequeño problema puede traer muchas complicaciones a futuro. Recuerden que por buenas prácticas para el desarrollo, para arreglar el problema haremos un branch de nuestra versión de desarrollo en donde corregiremos el problema, la probaremos en desarrollo y si todo va bien la pasaremos a producción ( master ).
+
+Para ayudarnos en este proceso GitHub tiene una herramienta para "issue tracking" en donde publicaremos los problemas a medida que vayan sucediendo, asignaremos la persona encargada y veremos el estado de la solución. Si bien existen muchas herramientas que dan este tipo de soluciones, les recomiendo que empiecen ahora a usarlas. En el caso de nuestros proyectos tendremos una pestaña llamada issues en la página en GitHub en donde podremos acceder a esta funcionalidad. ¡ Esto también funciona para el programa del curso !
+
+> Recomendación: Chicos, si bien no lo evaluaremos ni abarcaremos esto en el curso, les recomiendo leer sobre las pruebas unitarias.
+
+### El proceso debe de ser respetado.
+
+Ya comentamos sobre los problemas que puede traer ignorar el proceso, ¿ Pero como podemos evitarlos ?.
+
+Para evitar que los miembros del equipo pierdan el foco del proyecto, lo mejor es que estén involucrados en la toma de desiciones y en el desarrollo del sistema. **¡Si pueden estar involucrados en el proceso de división de tareas mucho mejor!**.
+
+#### Etapas del proyecto que deben quedar claras.
+
+* Entender los requerimientos.
+  * Que es lo que quiere el usuario.
+  * Como poder modelar exactamento lo que está en la mente del usuario.
+
+* Del modelo al diseño
+  * Cual debería ser el diseño adecuado. ( Desde la arquitectura del software, pasando por la interface y finalizando en el Hardware)
+
+* Del diseño a la implementación.
+  * Tomar el diseño y traspasarlo a algo funcional.
+
+* Pruebas
+  * Verificar que la implementación concuerda con lo esperado por el cliente.
+  * Encontar las diferencias entre lo que el espera y lo que se implementó.
+
+* Arreglar.
+  * Si existe una diferencia arreglarla.
+
+* Verificar.
+  * Revisar que el sistema funciona de manera adecuada después de arreglar los problemas.
+* Feedback
+  * Entregar parcialmente el sistema y recolectar el feedback por parte del cliente.
+  * Estar preparado para los cambios.
+  * Si existieran cambios, se inicia nuevamente el proceso de recolección de requerimientos, obtención de información y se continua el ciclo del proceso nuevamente.
+
+  Recuerden que de la manera como estamos desarrollando, siguiendo los principios del manifiesto ágil, siempre deberíamos estar iterando en el ciclo anterior.
+
+#### Como comenzar con procesos en donde no tenemos
+Si no hay ningún proceso definido en el desarrollo, puede parecer incluso imposible introducir procesos para poder generar un orden, sin embargo, esto no es muy difícil.
+
+Lo primero sería convencerse de que es necesario. Para ello pueden revisar lo siguiente :
+* Cantidad de bugs encontrados por periodo.
+* Tiempo necesitado en correcciones.
+* Revisar si el bug es consecuencia de otro bug o solución.
+
+Con esto debería de ser evidente que se puede optimizar el desarrollo introduciondo procesos.
+
+> Es inevitable tener bugs en un software. Lo que es posible es reducir la cantidad de ellos y el tiempo que demoramos en solucionarlos.
+
+Es importante que todos participen en las revisiones, no importando si es del código, del diseño, etc.
+
+**¿Cual creen que es el tipo de bug más común?**
+
+#### Los procesos ayudan, no dificultan.
+
+A esta altura ya deberían tener más que claro que los procesos ayudan en la organización y el desarrollo del proyecto, sin embargo no nos hemos amarrado con ningún modelo en particular. Si bien seguimos los principios del manifiesto para el desarrollo ágil, existen distintos modelos predefinidos para seguir.
+
+> Lo más importante es encontrar uno que no solo se adecue a los tiempos y las necesidades del cliente, es encontrar uno que se adecue al equipo.
+
+## Clase 8 - Requerimientos del Usuario
 
 
 ## Proyecto del curso
