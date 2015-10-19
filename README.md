@@ -319,7 +319,45 @@ A esta altura ya deberían tener más que claro que los procesos ayudan en la or
 
 > Lo más importante es encontrar uno que no solo se adecue a los tiempos y las necesidades del cliente, es encontrar uno que se adecue al equipo.
 
-## Clase 8 - Requerimientos del Usuario
+## Clase 8 - Conectando tu aplicación.
+
+### ¿ Qué es un API ?
+Application Programming Interface , es el conjunto de subrutinas, funciones y procedimientos (o métodos, en la programación orientada a objetos) que ofrece cierta biblioteca para ser utilizado por otro software como una capa de abstracción.
+
+### Cuando usamos un API
+
+### Ejemplos de uso de las API web
+
+* Google
+* Facebook
+* Twitter
+* Twilio
+* Asana
+
+### Conceptos básicos de REST
+
+REST viene del término en inglés Representational State Transfer  y consiste en un estilo de arquitectura de software para aplicaciones web.
+
+Consiste en un set de restricciones y reglas que pueden llevar a una arquitectura de diseño más robusta para nuestras aplicaciones y su interconexión con otras. Los servicios que cumplan con todas estas características serán llamados RESTful.
+
+* Cliente-servidor
+* Stateless
+* Cacheable
+* Layered system
+* Uniform interface
+* * Identification of resources
+* * Manipulation of resources through these representations
+* * Self-descriptive messages
+* * Hypermedia as the engine of application state (HATEOAS)
+
+Cómo buena práctica en general también se pueden crear versiones para mantener la compatibilidad.
+
+Los web services que sigan estas restricciones son llamados RESTful APIs y esto es lo que estaremos desarrollando en el curso. Son definidas bajo los siguientes aspectos.
+
+* Tienen una url base como lo puede ser http://example.com/resources/ o más sencillo http://example.com/api/ . En general usaran datos tipo JSON, pero puede usar cualquier otro tipo de datos válido como puede ser XML.
+* Posee métodos estándar (ejemplo, GET, PUT, POST, o DELETE).
+
+
 
 
 ## Proyecto del curso
