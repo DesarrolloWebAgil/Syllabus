@@ -357,7 +357,102 @@ Los web services que sigan estas restricciones son llamados RESTful APIs y esto 
 * Tienen una url base como lo puede ser http://example.com/resources/ o más sencillo http://example.com/api/ . En general usaran datos tipo JSON, pero puede usar cualquier otro tipo de datos válido como puede ser XML.
 * Posee métodos estándar (ejemplo, GET, PUT, POST, o DELETE).
 
+# Clase 9 - Asegurando la Disponibilidad
 
+Si bien, todo lo que hemos visto en el curso es en como desarrollar y gestionar el desarrollo de la aplicación, hay algo que hemos dejado algo olvidado y debemos retomar ahora que tenemos nuestras aplicaciones semi funcionando.
+
+Tomando esto en consideración incorporaremos el término de alta disponibilidad el cual se refiere a un protocolo de diseño del sistemas y su implementación asociada que asegura un cierto grado absoluto de continuidad operacional durante un período de medición dado, o sea, la capacidad de acceder y poder utilizar la aplicación. Si un usuario, no puede acceder al sistema o tiene algún problema con alguna de sus funcionalidades hablamos de falta de disponibilidad de la aplicación ( downtime ).
+
+
+Disponibilidad es usualmente expresada como un porcentaje del tiempo de funcionamiento en un año dado. En un año dado, el número de minutos de tiempo de inactividad no planeado es registrado para un sistema, el tiempo de inactividad no planificado agregado es dividido por el número total de minutos en un año (aproximadamente 525.600) produciendo un porcentaje de tiempo de inactividad; el complemento es el porcentaje de tiempo de funcionamiento el cual es lo que denominamos como disponibilidad del sistema. Valores comunes de disponibilidad, típicamente enunciado como número de "nueves" para sistemas altamente disponibles son:
+
+    99,9% = 43.8 minutos/mes u 8,76 horas/año ("tres nueves")
+    99,99% = 4.38 minutos/mes o 52.6 minutos/año ("cuatro nueves")
+    99,999% = 0.44 minutos/mes o 5.26 minutos/año ("cinco nueves")
+
+Es de hacer notar que tiempo de funcionamiento y disponibilidad no son sinónimos. Un sistema puede estar en funcionamiento y no disponible como en el caso de un fallo de red. Se puede apreciar que estos valores de disponibilidad son visibles mayormente en documentos de ventas o marketing, en lugar de ser una especificación técnica completamente medible y cuantificable.
+
+Como ejemplo me gustaría mostrar una simple imagen de la arquitectura de twitter.
+
+![Twitter High Availability](Imagenes/Twitter_HA.png)
+
+Mucha gente piensa que twitter es una aplicación fácil de mantener debido a que es solo "POSETAR" un comentario, pero si vamos un poco más al detalle hay muchas cosas que no estamos teniendo en consideración. Las estadisticas que menciono son a Julio del 2015.
+
+* Tiene 316 Millones de usuarios activos.
+* Posee alrededor de 1 billon de usuarios.
+* 36 millones de visitas mensuales desde PCs.
+* 100 millones de visitas mensuales desde mobiles.
+
+Solo por información extra, en promedio un servidor apache2 con PHP y conexión a Mysql usa unos 28 megas en ram.
+
+¿ Si siguieramos ese patron para nuestra aplicacación cuantos megas en ram utilizariamos ?
+
+Mantener una aplicación que asegure una alta disponibilidad no es sencillo debido a que pueden suceder muchos "incidentes" en el funcionamiento. Es por esto que nos olvidaremos un poco de las configuraciones de los servidores y nos enfocaremos en garantizar el funcionamiento de nuestra aplicación.
+
+
+##  Servicios Cloud.
+
+Lo mejor que podemos hacer es utilizar servicios que permitan que mi aplicación simplemente funcione, dentro de ellos tenemos los siguientes.
+
+* SaaS
+* PaaS
+* IaaS
+
+### SaaS - Software as a service.
+
+Son aplicaciones en la nube que  antiguamente podríamos haber usado en el escritorio. Representa el mercado más grande y creciente de las aplicaciones cloud y lo más probable que la nuestra esté en esta categoría. La mayoría de estas aplicaciones puede ser accedida directamente desde el explorador.
+
+
+Ejemplos :
+
+* Google Apps, Salesforce, Citrix GoToMeeting, Cisco WebEx
+
+### PaaS - Platform as a service.
+
+Esto es lo que debería ser perfecto para nosotros,simplemente nos encargamos de la aplicación y el servicio de PaaS se encarga de todo lo que viene por detrás.
+
+A continuación una lista de proveedores de este servicio, de los cuales solo he usado ElasticBeanStak de amazon y Google App Engine.
+
+
+*    ActiveState
+*    Anaplan
+*    AppearIQ
+*    Apprenda
+*    AppScale
+*    AWS Elastic Beanstalk
+*    Calipso Comunicaciones S.A.
+*    Cloud Foundry
+*    CloudControl
+*    Cloudera
+*    Distelli
+*    Corvisa
+*    Engine Yard
+*    Google App Engine
+*    Heroku
+*    Hewlett Packard
+*    IBM Bluemix
+*    Jelastic
+*    Microsoft Azure Web Sites, Azure Cloud Services, Azure Mobile Services
+*    Mendix
+*    Morpheus
+*    OpenShift
+*    Oracle
+*    OutSystems
+*    Pivotal Software
+*    Progress Software
+*    QlikView
+*    Ragic
+*    Ricoh
+*    Red Hat
+*    Rollbase
+*    Salesforce.com
+*    Tsuru
+*    WaveMaker
+
+
+### IaaS - Infraestructura as a service.
+
+Este es el servicio más común de los que aparecen en la nube y generalmente nos referimos a servidores tanto físicos como virtuales que podemos contratar y otros servicios relacionados. Acá podemos encontrar Amazon EC2 y Digital Ocean. 
 
 
 ## Proyecto del curso
@@ -367,3 +462,8 @@ Los web services que sigan estas restricciones son llamados RESTful APIs y esto 
 * Definir una carta Gantt para el proyecto.
 * Inicializar y utilizar un repositorio para el proyecto.
 * Elegir y utilizar una herramienta de gestión de proyectos.
+
+## Recursos
+
+* https://es.wikipedia.org/wiki/Alta_disponibilidad
+* http://highscalability.com/blog/2013/7/8/the-architecture-twitter-uses-to-deal-with-150m-active-users.html
