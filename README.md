@@ -452,7 +452,7 @@ A continuación una lista de proveedores de este servicio, de los cuales solo he
 
 ### IaaS - Infraestructura as a service.
 
-Este es el servicio más común de los que aparecen en la nube y generalmente nos referimos a servidores tanto físicos como virtuales que podemos contratar y otros servicios relacionados. Acá podemos encontrar Amazon EC2 y Digital Ocean. 
+Este es el servicio más común de los que aparecen en la nube y generalmente nos referimos a servidores tanto físicos como virtuales que podemos contratar y otros servicios relacionados. Acá podemos encontrar Amazon EC2 y Digital Ocean.
 
 
 ## Proyecto del curso
@@ -462,6 +462,29 @@ Este es el servicio más común de los que aparecen en la nube y generalmente no
 * Definir una carta Gantt para el proyecto.
 * Inicializar y utilizar un repositorio para el proyecto.
 * Elegir y utilizar una herramienta de gestión de proyectos.
+
+
+### Evaluación
+
+El sistema resultante del proyecto del curso será evaluado de la siguiente manera:
+* Evaluación por los pares.
+* Evaluación desde los integrantes.
+* Evaluación del o los profesores.
+* Evaluación de emprendedores extranjeros. Hasta hora tengo 3 emprendimientos.
+
+Cada uno evaluará del 1 al 5 los siguientes puntos :
+* UTILIDAD. El sistema es útil, y aporta valor para querer ocuparlo.
+* FUNCIONALIDAD. El sistema debe de estar montado en un servidor y no sobre una de las máquinas de desarrollo, por ejemplo las de cloud9, además de ser facilmente accesible.
+* FACILIDAD DE USO. En resumen, amigable.
+* ESTABILIDAD. Se probara baja distintas condiciones de carga TRATANDO de que falle.
+* COMPATIBILIDAD. Debe de ser independiente del sistema operativo y browser a utilizar.
+* INTEROPERABILIDAD ( Puede ser integrado )
+
+Todo esto será ponderado con la presentación del proyecto.
+
+Para la primera parte de la evaluación todos la evaluación se realizará antes de la fecha de exámen en fecha por definir.
+
+
 
 ## Recursos
 
